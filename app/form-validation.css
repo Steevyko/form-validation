@@ -53,3 +53,10 @@ button:active{
     background-color: #e5e7e8;
     font-size: 1rem;
 }
+
+p{
+    color: #ff5722;
+    align-self: baseline;
+    font-size: 0.8rem;
+    width: 20rem;
+}
