@@ -1,0 +1,55 @@
+input,
+textarea,
+select {
+  font-size: 16px;
+}
+body{
+      background-color: #e5e7e8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+   
+}
+
+div{
+     display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 0.8rem
+}
+
+input{
+    padding: 0.6rem;
+    width: 20rem;
+    border-width: 0;
+    border-bottom-width: 2px;
+}
+
+input:focus{
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: rgb(37, 36, 36);;
+}
+button{
+        padding: 0.6rem;
+    width: 20rem;
+     border-width: 1.5px;
+    border-radius: 5px;
+    color: #e5e7e8;
+    background-color: rgb(37, 36, 36);
+    font-size: 1rem;
+}
+button:active{
+      padding: 0.6rem;
+    width: 20rem;
+     border-width: 1.5px;
+    border-radius: 5px;
+    color: rgb(37, 36, 36);
+    background-color: #e5e7e8;
+    font-size: 1rem;
+}
